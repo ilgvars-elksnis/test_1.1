@@ -1,0 +1,47 @@
+
+
+
+/*Header*/
+header {
+    position: relative;
+    height: 40px;
+    left: 99.5px;
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logoText {
+        padding: 17px 14px;
+        font-size: 17.5px;
+        text-decoration: none;
+        color: $black;
+    }
+    ul {
+        padding-right: 186px;
+        display: flex;    
+        padding-bottom: 1px;
+        li {
+            list-style: none;
+            a {
+                display: inline-block;
+                padding-top: 16px;
+                margin: 0 15px;
+                font-size: 16px;
+                text-decoration: none;
+                color: $grey;
+            }
+            a:hover {
+                color: $lightblue;
+            }
+            a:active {
+                color: $darkblue;
+            }
+        }
+    }
+}
+
+.logo {
+    width: 118px;
+    height: 41px;
+    display: flex;
+}

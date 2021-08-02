@@ -1,0 +1,85 @@
+/*Border and social*/
+
+.border {
+    width: 400px;
+    height: 1px;
+    margin-top: 47px;
+    margin-left: 70px;
+    background: #E3E3E4;
+}
+
+.icons {
+    margin-left: 140px;
+    margin-top: 50px;
+    padding-bottom: 60px;
+
+    a {
+        margin: 0 6px;
+        border-radius: 100%;
+        box-sizing: content-box;
+        color: $black;
+        padding: 14px;
+        border: 2px solid $black;
+        text-decoration: none;
+        opacity: 0.3;
+    }
+
+    a:nth-child(1):hover {
+        background: #4267B2;
+        color: #FFFFFF;
+        opacity: 1;
+        border: 2px solid #4267B2;
+        box-shadow: 0 20px 40px 0 rgba(19, 24, 33, 0.3)
+    }
+
+    a:nth-child(1):active {
+        background: #2F4A80;
+        border: 2px solid #2F4A80;
+    }
+
+    a:nth-child(2):hover {
+        background: #C13584;
+        color: #FFFFFF;
+        opacity: 1;
+        border: 2px solid #C13584;
+        box-shadow: 0 20px 40px 0 rgba(19, 24, 33, 0.3)
+    }
+
+    a:nth-child(2):active {
+        background: #8F2762;
+        border: 2px solid #8F2762;
+    }
+
+    a:nth-child(3):hover {
+        background: #1DA1F2;
+        color: #FFFFFF;
+        opacity: 1;
+        border: 2px solid #1DA1F2;
+        box-shadow: 0 20px 40px 0 rgba(19, 24, 33, 0.3)
+    }
+
+    a:nth-child(3):active {
+        background: #177FBF;
+        border: 2px solid #177FBF;
+    }
+
+    a:nth-child(4):hover {
+        background: #FF0000;
+        color: #FFFFFF;
+        opacity: 1;
+        border: 2px solid #FF0000;
+        box-shadow: 0 20px 40px 0 rgba(19, 24, 33, 0.3)
+    }
+
+    a:nth-child(4):active {
+        background: #CC0000;
+        border: 2px solid #CC0000;
+    }
+}
+
+.error {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 5px;
+    color: red;
+}

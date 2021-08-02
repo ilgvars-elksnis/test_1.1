@@ -1,0 +1,125 @@
+/*Content*/
+
+.textBox {
+    position: relative;
+    left: 70px;
+    top: 159px;
+    overflow: hidden;
+    width: fit-content;
+}
+
+/*Form*/
+h1 {
+    margin-top: 178px;
+    margin-left: 70px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: $black;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 70px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 28.5px;
+    color: $grey;
+    max-width: 380px;
+}
+
+.subscribe {
+    width: max-content;
+}
+
+.email {
+    padding-left: 40px;
+    font-size: 16px;
+    position: relative;
+    padding-top: 1px;
+    margin-top: 49px;
+    margin-left: 30px;
+    width: 663px;
+    height: 70px;
+    border-width: 1px 1px 1px 4px;
+    border-color: #E3E3E4 #E3E3E4 #E3E3E4 $lightblue;
+    opacity: 1;
+
+    :focus {
+        -webkit-box-shadow: 0 30px 40px 0 rgba(19, 24, 33, 0.06);
+        box-shadow: 0 30px 40px 0 rgba(19, 24, 33, 0.06);
+        border-color: #E3E3E4 #E3E3E4 #E3E3E4 $lightblue;
+        outline: 0;
+
+        button {
+            color: $lightblue;
+            opacity: 1;
+        }
+    }
+    :hover {
+        -webkit-box-shadow: 0 30px 40px 0 rgba(19, 24, 33, 0.06);
+        box-shadow: 0 30px 40px 0 rgba(19, 24, 33, 0.06);
+        border-color: #E3E3E4 #E3E3E4 #E3E3E4 $lightblue;    
+        outline: 0;
+    }
+
+    :hover+button {
+        color: $lightblue;
+        opacity: 1;
+    }
+}
+
+
+.email:hover {
+    border-color: $lightblue;
+    box-shadow: 0 30px 40px 0 rgba(19, 24, 33, 0.06)
+}
+
+
+button {
+    position: relative;
+    background: #fff;
+    top: 4.6px;
+    right: 82px;
+    border: none;
+    border-radius: 100%;
+    box-sizing: content-box;
+    color: $black;
+    padding: 14px;
+    text-decoration: none;
+    opacity: 0.3;
+    outline: 0;
+    :hover {
+        color: $lightblue;
+        opacity: 1;
+    }
+    :active {
+        outline: 0;
+    }
+}
+
+.checkBox {
+    position: relative;
+    margin-top: 54px;
+    margin-left: 70px;
+    width: 26px;
+    height: 26px;
+}
+
+label {
+    position: relative;
+    bottom: 7px;
+    padding-left: 10.5px;
+    color: $grey;
+    text-underline-offset: 1px;
+    a {
+        color: $black;
+    }
+    a:hover {
+        color: $lightblue;
+    }
+    a:active {
+        color: $darkblue;
+    }
+}
